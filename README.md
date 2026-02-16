@@ -1,6 +1,6 @@
 # 📘 DBMS Lab Assignments – Oracle SQL
 
-## 🎓 College Lab Project
+## 🎓 College Lab Assignment
 
 This repository contains my weekly **Database Management System (DBMS)** lab assignments submitted as part of my college coursework.
 
