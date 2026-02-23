@@ -57,10 +57,3 @@ DBMS-Lab/
 
 ---
 
-## 👨‍💻 Student Information
-
-**Name:** Md Irshad Alam  
-**Branch:** Computer Science & Engineering  
-**Semester:** 5th Semester  
-
----
