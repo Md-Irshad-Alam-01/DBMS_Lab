@@ -79,14 +79,14 @@ INSERT INTO Faculty VALUES (306,'Amit Kumar','Asst Prof','amitbcebhagalpur@gmail
 
 --Civil Engineering
 INSERT INTO Student VALUES (1,'Rahul Kumar', DATE '2004-01-15','Male','9000000001',1);
-INSERT INTO Student VALUES (2,'Aman Raj', DATE '2004-03-22','Male','9000000002',1);
-INSERT INTO Student VALUES (3,'Neha Kumari', DATE '2004-05-10','Female','9000000003',1);
-INSERT INTO Student VALUES (4,'Pooja Singh', DATE '2003-12-05','Female','9000000004',1);
-INSERT INTO Student VALUES (5,'Satyam Kumar', DATE '2004-07-18','Male','9000000005',1);
-INSERT INTO Student VALUES (6,'Ritika Kumari', DATE '2004-09-09','Female','9000000006',1);
-INSERT INTO Student VALUES (7,'Vikash Kumar', DATE '2003-11-25','Male','9000000007',1);
-INSERT INTO Student VALUES (8,'Ankit Raj', DATE '2004-02-14','Male','9000000008',1);
-INSERT INTO Student VALUES (9,'Sneha Kumari', DATE '2004-06-30','Female','9000000009',1);
+INSERT INTO Student VALUES (2,'Aman Raj', DATE '2025-03-22','Male','9000000002',1);
+INSERT INTO Student VALUES (3,'Neha Kumari', DATE '2025-05-10','Female','9000000003',1);
+INSERT INTO Student VALUES (4,'Pooja Singh', DATE '2025-12-05','Female','9000000004',1);
+INSERT INTO Student VALUES (5,'Satyam Kumar', DATE '2025-07-18','Male','9000000005',1);
+INSERT INTO Student VALUES (6,'Ritika Kumari', DATE '2025-09-09','Female','9000000006',1);
+INSERT INTO Student VALUES (7,'Vikash Kumar', DATE '2025-11-25','Male','9000000007',1);
+INSERT INTO Student VALUES (8,'Ankit Raj', DATE '2025-02-14','Male','9000000008',1);
+INSERT INTO Student VALUES (9,'Sneha Kumari', DATE '2025-06-30','Female','900000009',1);
 INSERT INTO Student VALUES (10,'Rohit Kumar', DATE '2003-08-20','Male','9000000010',1);
 
 --Civil Engineering with Computer Application
@@ -95,7 +95,7 @@ INSERT INTO Student VALUES (12,'Kajal Kumari', DATE '2004-02-19','Female','90000
 INSERT INTO Student VALUES (13,'Ravi Kumar', DATE '2003-10-05','Male','9000000013',2);
 INSERT INTO Student VALUES (14,'Priya Kumari', DATE '2004-06-21','Female','9000000014',2);
 INSERT INTO Student VALUES (15,'Abhishek Raj', DATE '2004-03-14','Male','9000000015',2);
-INSERT INTO Student VALUES (16,'Nisha Kumari', DATE '2003-12-12','Female','9000000016',2);
+INSERT INTO Student VALUES (16,'Nisha Kumari', DATE '2003-12-12','Female','9876543216',2);
 INSERT INTO Student VALUES (17,'Deepak Kumar', DATE '2004-08-07','Male','9000000017',2);
 INSERT INTO Student VALUES (18,'Komal Kumari', DATE '2004-09-28','Female','9000000018',2);
 INSERT INTO Student VALUES (19,'Manish Kumar', DATE '2003-07-17','Male','9000000019',2);
@@ -219,8 +219,8 @@ INSERT INTO Course VALUES (1035,'Graphic Design',4,7,304);
 --Student Enrollment
 
 --Civil Engineering
-INSERT INTO Enrollment VALUES (1,1001,'Sem5','A');
-INSERT INTO Enrollment VALUES (2,1002,'Sem5','B+');
+INSERT INTO Enrollment VALUES (1,1001,'Sem4','A');
+INSERT INTO Enrollment VALUES (2,1002,'Sem4','B+');
 INSERT INTO Enrollment VALUES (3,1003,'Sem5','A');
 INSERT INTO Enrollment VALUES (4,1004,'Sem5','B');
 INSERT INTO Enrollment VALUES (5,1005,'Sem5','A');
@@ -231,8 +231,8 @@ INSERT INTO Enrollment VALUES (9,1004,'Sem5','A');
 INSERT INTO Enrollment VALUES (10,1005,'Sem5','B+');
 
 --Civil Engineering with Computer Application
-INSERT INTO Enrollment VALUES (11,1006,'Sem5','A');
-INSERT INTO Enrollment VALUES (12,1007,'Sem5','B+');
+INSERT INTO Enrollment VALUES (11,1006,'Sem4','A');
+INSERT INTO Enrollment VALUES (12,1007,'Sem4','B+');
 INSERT INTO Enrollment VALUES (13,1008,'Sem5','A');
 INSERT INTO Enrollment VALUES (14,1009,'Sem5','B');
 INSERT INTO Enrollment VALUES (15,1010,'Sem5','A');
@@ -243,8 +243,8 @@ INSERT INTO Enrollment VALUES (19,1009,'Sem5','A');
 INSERT INTO Enrollment VALUES (20,1010,'Sem5','B+');
 
 --Mechanical Engineering
-INSERT INTO Enrollment VALUES (21,1011,'Sem5','A');
-INSERT INTO Enrollment VALUES (22,1012,'Sem5','B+');
+INSERT INTO Enrollment VALUES (21,1011,'Sem4','A');
+INSERT INTO Enrollment VALUES (22,1012,'Sem4','B+');
 INSERT INTO Enrollment VALUES (23,1013,'Sem5','A');
 INSERT INTO Enrollment VALUES (24,1014,'Sem5','B');
 INSERT INTO Enrollment VALUES (25,1015,'Sem5','A');
@@ -255,8 +255,8 @@ INSERT INTO Enrollment VALUES (29,1014,'Sem5','A');
 INSERT INTO Enrollment VALUES (30,1015,'Sem5','B+');
 
 --Electrical and Electronics Engineering
-INSERT INTO Enrollment VALUES (31,1016,'Sem5','A');
-INSERT INTO Enrollment VALUES (32,1017,'Sem5','B+');
+INSERT INTO Enrollment VALUES (31,1016,'Sem4','A');
+INSERT INTO Enrollment VALUES (32,1017,'Sem4','B+');
 INSERT INTO Enrollment VALUES (33,1018,'Sem5','A');
 INSERT INTO Enrollment VALUES (34,1019,'Sem5','B');
 INSERT INTO Enrollment VALUES (35,1020,'Sem5','A');
@@ -267,8 +267,8 @@ INSERT INTO Enrollment VALUES (39,1019,'Sem5','A');
 INSERT INTO Enrollment VALUES (40,1020,'Sem5','B+');
 
 --Computer Science & Engineering
-INSERT INTO Enrollment VALUES (41,1021,'Sem5','A');
-INSERT INTO Enrollment VALUES (42,1022,'Sem5','B+');
+INSERT INTO Enrollment VALUES (41,1021,'Sem4','A');
+INSERT INTO Enrollment VALUES (42,1022,'Sem4','B+');
 INSERT INTO Enrollment VALUES (43,1023,'Sem5','A');
 INSERT INTO Enrollment VALUES (44,1024,'Sem5','B');
 INSERT INTO Enrollment VALUES (45,1025,'Sem5','A');
@@ -279,8 +279,8 @@ INSERT INTO Enrollment VALUES (49,1024,'Sem5','A');
 INSERT INTO Enrollment VALUES (50,1025,'Sem5','B+');
 
 --Computer Science & Engineering (AIML)
-INSERT INTO Enrollment VALUES (51,1026,'Sem5','A');
-INSERT INTO Enrollment VALUES (52,1027,'Sem5','B+');
+INSERT INTO Enrollment VALUES (51,1026,'Sem4','A');
+INSERT INTO Enrollment VALUES (52,1027,'Sem4','B+');
 INSERT INTO Enrollment VALUES (53,1028,'Sem5','A');
 INSERT INTO Enrollment VALUES (54,1029,'Sem5','B');
 INSERT INTO Enrollment VALUES (55,1030,'Sem5','A');
@@ -291,8 +291,8 @@ INSERT INTO Enrollment VALUES (59,1029,'Sem5','A');
 INSERT INTO Enrollment VALUES (60,1030,'Sem5','B+');
 
 --3D Animation and Graphics
-INSERT INTO Enrollment VALUES (61,1031,'Sem5','A');
-INSERT INTO Enrollment VALUES (62,1032,'Sem5','B+');
+INSERT INTO Enrollment VALUES (61,1031,'Sem4','A');
+INSERT INTO Enrollment VALUES (62,1032,'Sem4','B+');
 INSERT INTO Enrollment VALUES (63,1033,'Sem5','A');
 INSERT INTO Enrollment VALUES (64,1034,'Sem5','B');
 INSERT INTO Enrollment VALUES (65,1035,'Sem5','A');
@@ -311,3 +311,5 @@ SELECT * FROM Faculty;
 SELECT * FROM Course;
 SELECT * FROM Student;
 SELECT * FROM Enrollment;
+
+commit;
