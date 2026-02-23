@@ -1,44 +1,63 @@
+
+--Department Table
 CREATE TABLE Department (
-    dept_id INT PRIMARY KEY,
-    dept_name VARCHAR(50) NOT NULL,
-    office_location VARCHAR(100)
+    Department_ID NUMBER PRIMARY KEY,
+    Department_Name VARCHAR2(100) NOT NULL,
+    Office_Location VARCHAR2(100)
 );
 
+--Student Table
 CREATE TABLE Student (
-    student_id INT PRIMARY KEY,
-    name VARCHAR(50) NOT NULL,
-    dob DATE,
-    gender VARCHAR(10),
-    contact_number VARCHAR(15),
-    dept_id INT,
-    FOREIGN KEY (dept_id) REFERENCES Department(dept_id)
+    Student_ID NUMBER PRIMARY KEY,
+    Name VARCHAR2(100) NOT NULL,
+    Date_of_Birth DATE,
+    Gender VARCHAR2(10),
+    Contact_Number VARCHAR2(15),
+    Department_ID NUMBER,
+    CONSTRAINT fk_student_dept
+    FOREIGN KEY (Department_ID)
+    REFERENCES Department(Department_ID)
 );
 
+--Faculty table
 CREATE TABLE Faculty (
-    faculty_id INT PRIMARY KEY,
-    name VARCHAR(50) NOT NULL,
-    designation VARCHAR(50),
-    email VARCHAR(100) UNIQUE,
-    dept_id INT,
-    FOREIGN KEY (dept_id) REFERENCES Department(dept_id)
+    Faculty_ID NUMBER PRIMARY KEY,
+    Name VARCHAR2(30) NOT NULL,
+    Designation VARCHAR2(50),
+    Email VARCHAR2(100) ,
+    Department_ID NUMBER,
+    CONSTRAINT fk_faculty_dept
+    FOREIGN KEY (Department_ID)
+    REFERENCES Department(Department_ID)
 );
 
+--Course Table
 CREATE TABLE Course (
-    course_id INT PRIMARY KEY,
-    course_name VARCHAR(100) NOT NULL,
-    credits INT,
-    dept_id INT,
-    faculty_id INT,
-    FOREIGN KEY (dept_id) REFERENCES Department(dept_id),
-    FOREIGN KEY (faculty_id) REFERENCES Faculty(faculty_id)
+    Course_ID NUMBER PRIMARY KEY,
+    Course_Name VARCHAR2(50) NOT NULL,
+    Credits NUMBER CHECK (Credits > 0),
+    Department_ID NUMBER,
+    Faculty_ID NUMBER,
+    CONSTRAINT fk_course_dept
+    FOREIGN KEY (Department_ID)
+    REFERENCES Department(Department_ID),
+    CONSTRAINT fk_course_faculty
+    FOREIGN KEY (Faculty_ID)
+    REFERENCES Faculty(Faculty_ID)
 );
 
+--Enrollment Table
 CREATE TABLE Enrollment (
-    enrollment_id INT PRIMARY KEY,
-    student_id INT,
-    course_id INT,
-    semester VARCHAR(20),
-    grade VARCHAR(5),
-    FOREIGN KEY (student_id) REFERENCES Student(student_id),
-    FOREIGN KEY (course_id) REFERENCES Course(course_id)
+    Student_ID NUMBER,
+    Course_ID NUMBER,
+    Semester VARCHAR2(20),
+    Grade VARCHAR2(5),
+    CONSTRAINT pk_enrollment
+        PRIMARY KEY (Student_ID, Course_ID),
+    CONSTRAINT fk_enroll_student
+        FOREIGN KEY (Student_ID)
+        REFERENCES Student(Student_ID),
+    CONSTRAINT fk_enroll_course
+        FOREIGN KEY (Course_ID)
+        REFERENCES Course(Course_ID)
 );
