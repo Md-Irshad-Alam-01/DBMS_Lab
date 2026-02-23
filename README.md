@@ -45,6 +45,8 @@ DBMS-Lab/
 │   └── lab2.sql
 │── Lab-3/
 │   └── lab3.sql
+│── Lab-4/
+│   └── lab4.sql
 │── README.md
 
 ---
@@ -57,3 +59,11 @@ DBMS-Lab/
 
 ---
 
+## 👨‍🎓 Student Details
+
+- Name: Md Irshad Alam  
+- Branch: Computer Science & Engineering (AI & ML)  
+- Semester: 5th Semester  
+- College: B.P. Mandal College of Engineering
+
+---
