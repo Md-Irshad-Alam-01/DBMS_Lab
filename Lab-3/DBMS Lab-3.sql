@@ -220,7 +220,7 @@ INSERT INTO Course VALUES (1035,'Graphic Design',4,7,304);
 
 --Civil Engineering
 INSERT INTO Enrollment VALUES (1,1001,'Sem4','A');
-INSERT INTO Enrollment VALUES (2,1002,'Sem4','B+');
+INSERT INTO Enrollment VALUES (2,1002,'Sem5','B+');
 INSERT INTO Enrollment VALUES (3,1003,'Sem5','A');
 INSERT INTO Enrollment VALUES (4,1004,'Sem5','B');
 INSERT INTO Enrollment VALUES (5,1005,'Sem5','A');
@@ -232,7 +232,7 @@ INSERT INTO Enrollment VALUES (10,1005,'Sem5','B+');
 
 --Civil Engineering with Computer Application
 INSERT INTO Enrollment VALUES (11,1006,'Sem4','A');
-INSERT INTO Enrollment VALUES (12,1007,'Sem4','B+');
+INSERT INTO Enrollment VALUES (12,1007,'Sem5','B+');
 INSERT INTO Enrollment VALUES (13,1008,'Sem5','A');
 INSERT INTO Enrollment VALUES (14,1009,'Sem5','B');
 INSERT INTO Enrollment VALUES (15,1010,'Sem5','A');
@@ -244,7 +244,7 @@ INSERT INTO Enrollment VALUES (20,1010,'Sem5','B+');
 
 --Mechanical Engineering
 INSERT INTO Enrollment VALUES (21,1011,'Sem4','A');
-INSERT INTO Enrollment VALUES (22,1012,'Sem4','B+');
+INSERT INTO Enrollment VALUES (22,1012,'Sem5','B+');
 INSERT INTO Enrollment VALUES (23,1013,'Sem5','A');
 INSERT INTO Enrollment VALUES (24,1014,'Sem5','B');
 INSERT INTO Enrollment VALUES (25,1015,'Sem5','A');
@@ -256,7 +256,7 @@ INSERT INTO Enrollment VALUES (30,1015,'Sem5','B+');
 
 --Electrical and Electronics Engineering
 INSERT INTO Enrollment VALUES (31,1016,'Sem4','A');
-INSERT INTO Enrollment VALUES (32,1017,'Sem4','B+');
+INSERT INTO Enrollment VALUES (32,1017,'Sem5','B+');
 INSERT INTO Enrollment VALUES (33,1018,'Sem5','A');
 INSERT INTO Enrollment VALUES (34,1019,'Sem5','B');
 INSERT INTO Enrollment VALUES (35,1020,'Sem5','A');
@@ -268,7 +268,7 @@ INSERT INTO Enrollment VALUES (40,1020,'Sem5','B+');
 
 --Computer Science & Engineering
 INSERT INTO Enrollment VALUES (41,1021,'Sem4','A');
-INSERT INTO Enrollment VALUES (42,1022,'Sem4','B+');
+INSERT INTO Enrollment VALUES (42,1022,'Sem5','B+');
 INSERT INTO Enrollment VALUES (43,1023,'Sem5','A');
 INSERT INTO Enrollment VALUES (44,1024,'Sem5','B');
 INSERT INTO Enrollment VALUES (45,1025,'Sem5','A');
@@ -280,7 +280,7 @@ INSERT INTO Enrollment VALUES (50,1025,'Sem5','B+');
 
 --Computer Science & Engineering (AIML)
 INSERT INTO Enrollment VALUES (51,1026,'Sem4','A');
-INSERT INTO Enrollment VALUES (52,1027,'Sem4','B+');
+INSERT INTO Enrollment VALUES (52,1027,'Sem5','B+');
 INSERT INTO Enrollment VALUES (53,1028,'Sem5','A');
 INSERT INTO Enrollment VALUES (54,1029,'Sem5','B');
 INSERT INTO Enrollment VALUES (55,1030,'Sem5','A');
@@ -292,7 +292,7 @@ INSERT INTO Enrollment VALUES (60,1030,'Sem5','B+');
 
 --3D Animation and Graphics
 INSERT INTO Enrollment VALUES (61,1031,'Sem4','A');
-INSERT INTO Enrollment VALUES (62,1032,'Sem4','B+');
+INSERT INTO Enrollment VALUES (62,1032,'Sem5','B+');
 INSERT INTO Enrollment VALUES (63,1033,'Sem5','A');
 INSERT INTO Enrollment VALUES (64,1034,'Sem5','B');
 INSERT INTO Enrollment VALUES (65,1035,'Sem5','A');
